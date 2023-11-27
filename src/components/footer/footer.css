@@ -1,0 +1,26 @@
+.card__footer {
+  text-transform: none;
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  color: #fff;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 141, 230, 1) 0%,
+    rgba(8, 0, 148, 1) 100%
+  );
+  border-radius: 0 0 15px 15px;
+}
+
+@media (max-width: 379px) {
+  .card__footer {
+    flex-direction: column-reverse;
+    gap: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: auto;
+    gap: 5px;
+  }
+}

@@ -1,0 +1,18 @@
+.card__additional {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  list-style: none;
+  padding: 5px 20px 20px 20px;
+  margin: 0;
+  background-color: rgb(0, 36, 112);
+  color: #fff;
+  text-transform: none;
+}
+
+@media (max-width: 529px) {
+  .card__additional {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
